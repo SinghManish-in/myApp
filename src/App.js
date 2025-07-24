@@ -1,11 +1,9 @@
 import React from 'react';
+import Navbar from './component/Navbar';
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello, It's my first React App!</h1>
-       <h2>Happy Coding!!</h2>
-    </div>
+    <Navbar title='Textutils' about='About' home='Home'/>
   );
 };
 
