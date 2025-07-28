@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import MyNavbar from './MyNavbar';
 
 export default function AboutUs(props) {
     const [myStle, setMyStyle] = useState({
@@ -26,6 +27,9 @@ export default function AboutUs(props) {
     }
   return (
     <>
+    <div className='container'> 
+          <MyNavbar title='Textutils' about='About' home='Home' contact='Contact'/>
+    </div>
     <div className='container' style={myStle}>
         <h1 className='my-3'>About Us</h1>
     <div className="accordion" id="accordionExample">
